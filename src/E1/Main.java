@@ -1,2 +1,7 @@
-package E1;public class Main {
+package E1;
+
+public class Main {
+    public static void main(String[] args) {
+        new Game().start();
+    }
 }
