@@ -1,3 +1,5 @@
+package ArraysPrintsScans;
+
 public class Arrays {
 
     public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class Arrays {
             System.out.println(alumnes[i]);
         }
 
-        Prints.sep(50,'*',"Arrays d'alumnes");
+        Prints.sep(50,'*',"ArraysPrintsScans.Arrays d'alumnes");
         Alumne[] llistaAlumnes = new Alumne[5];
         Alumne a1 = new Alumne("Toni","DAM", 2);
 

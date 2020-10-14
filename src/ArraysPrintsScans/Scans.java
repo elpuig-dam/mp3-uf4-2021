@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package ArraysPrintsScans;
+
 import java.util.Scanner;
 
 public class Scans {

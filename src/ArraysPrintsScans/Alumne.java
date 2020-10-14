@@ -1,3 +1,5 @@
+package ArraysPrintsScans;
+
 public class Alumne {
     public String nom;
     private String cicle;

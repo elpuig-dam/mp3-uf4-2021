@@ -1,3 +1,5 @@
+package ArraysPrintsScans;
+
 import java.util.Arrays;
 
 public class Prints {
@@ -37,9 +39,9 @@ public class Prints {
         System.out.println("args = " + Arrays.deepToString(args));
 
         /** Per executar des de la línia de comandes indicant el path
-         java -cp out/production/MP3-UF1-2021/ Prints
+         java -cp out/production/MP3-UF1-2021/ ArraysPrintsScans.Prints
          o bé
-         java -cp out/production/MP3-UF1-2021/: Prints
+         java -cp out/production/MP3-UF1-2021/: ArraysPrintsScans.Prints
 
          No caldria posar class-path si executem desde el directori on hi ha la class
         */
