@@ -73,4 +73,19 @@ public class Cotxe implements Comparable<Cotxe>{
                 ", cilindrada=" + cilindrada +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Cotxe)) return false;
+
+        Cotxe cotxe = (Cotxe) o;
+
+        return getMatricula().equals(cotxe.getMatricula());
+    }
+
+    @Override
+    public int hashCode() {
+        return getMatricula().hashCode();
+    }
 }
