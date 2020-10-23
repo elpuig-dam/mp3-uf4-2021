@@ -27,6 +27,6 @@ _- Els colors van del 0 al 7 i el gruix de 0.1 a 3.0_
     2. Imprimeix per pantalla, utilitzant un bucle for, tota la imformació del Map (clau i valor)  
     3. Imprimeix per pantalla, utilitzant un bucle for, només els valors del Map    
 
-13. Exercici de la frequencia de llançament de dos daus amb Map
-14. Exercici de la frequencia de llançament de dos daus un List i el mètode Collecions.frequency()
+13. Exercici de la frequència de llançament de dos daus amb Map
+14. Exercici de la frequència de llançament de dos daus amb List i el mètode Collecions.frequency()
   
