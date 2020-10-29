@@ -44,4 +44,19 @@ public class Llapis implements Comparable<Llapis>{
         else if(color > o.getColor()) return 1;
         else return 0;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Llapis)) return false;
+
+        Llapis llapis = (Llapis) o;
+
+        return  getColor() == llapis.getColor();
+    }
+
+    @Override
+    public int hashCode() {
+        return getColor();
+    }
 }
